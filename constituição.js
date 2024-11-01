@@ -58,6 +58,8 @@ if (periodo === "M"){
 
 /// 6
 
+let notas = [5, 7, 2];
+console.log(notas.some(n => n < 4) ? "Reprovado" : (notas.reduce((a, b) => a + b) / 3 >= 6 ? "Aprovado" : "Recuperação"));
 
 /// 7 
 
